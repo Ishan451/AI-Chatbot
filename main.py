@@ -10,7 +10,7 @@ from sklearn.metrics.pairwise import cosine_similarity
 English_Learning_Prompt = "Welcome to the English Language Learning Chatbot! I'll guide you through learning English step by step. Let's start by learning some basic phrases. Choose one path:\n 1)translation \n2)grammar "
 English_Grmmar_Prompt = "Now that you know some basic phrases of English, lets study about its grammar, choose grammar or translation"
 # Set up OpenAI API key
-openai.api_key = "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"
+openai.api_key = "sk-****************************"
 
 
 def find_sim(user_input, correct_answer):
