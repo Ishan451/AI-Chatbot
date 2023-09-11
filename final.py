@@ -9,7 +9,7 @@ import openai
 
 app = Flask(__name__)
 
-OPENAI_API_KEY = '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'
+OPENAI_API_KEY = 'sk-****************************'
 parser = ResumeParser(OPENAI_API_KEY)
 
 # Define weights for different factors
